@@ -1,0 +1,77 @@
+<html>
+<!doctype html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        <link rel="stylesheet" href="http://www.fontspace.com/style-7/digital-7?text=">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <link href=main.css rel="stylesheet">
+        <script src="application.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            
+            <div class="calc">
+                
+                <div class="clear-btn">
+                    <button class="btn btn-danger" id="clear" onclick="clearScreen()">
+                        CE
+                    </button>
+                </div>
+                <div class="screen">
+                    <div class="row show-eq"></div>
+                    <div class="row show-nums" id="num-show"></div>
+                    <div class="row show-op"></div>
+                </div>
+                
+                <div class="all-btns">
+                    <div class="num-btns">
+                        <div class="btn-row">
+                            <div id="seven" class="num-btn" onclick="getNum(7);">7</div>
+                            <div id="eight" class="num-btn" onclick="getNum(8);">8</div>
+                            <div id="nine" class="num-btn" onclick="getNum(9);">9</div>
+                        </div>
+                        <div class="btn-row">
+                            <div id="four" class="num-btn" onclick="getNum(4);">4</div>
+                            <div id="five" class="num-btn" onclick="getNum(5);">5</div>
+                            <div id="six" class="num-btn" onclick="getNum(6);">6</div>
+                        </div>
+                        <div class="btn-row">
+                            <div id="one" class="num-btn" onclick="getNum(1);">1</div>
+                            <div id="two" class="num-btn" onclick="getNum(2);">2</div>
+                            <div id="three" class="num-btn" onclick="getNum(3);">3</div>
+                        </div>
+                        <div class="btn-row">
+                            <div id="zero" class="num-btn" onclick="getNum(0);">0</div>
+                            <div id="decimal" class="num-btn" onclick="decimal();">.</div>
+                            <div id="equals" class="num-btn" onclick="equals();">=</div>
+                        </div>
+                    </div>
+                    <div class="op-btns">
+                        <div class="btn-row">
+                            <div id="divide" class="op-btn" onclick="getOp('/');">&div;</div>
+                        </div>
+                        <div class="btn-row">
+                            <div id="times" class="op-btn" onclick="getOp('x');">x</div>
+                        </div>
+                        <div class="btn-row">
+                            <div id="minus" class="op-btn" onclick="getOp('-');">-</div>
+                        </div>
+                        <div class="btn-row">
+                            <div id="plus" class="op-btn" onclick="getOp('+');">+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div id="test"></div>
+            
+        </div>
+    </body>
+</html>
