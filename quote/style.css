@@ -1,0 +1,29 @@
+
+
+.bg-body {
+	background-color: #99ddff;
+}
+
+.placement {
+	position:relative;
+	top:40px;
+}
+
+h2 {
+	font-color: #99ddff;
+}
+
+.box {
+	color: #0bf;
+	background-color:#fff;
+	border-radius:5px;
+	padding:25px;
+	max-width:650px;
+	margin: auto;
+}
+
+#twitter {
+	position:relative;
+	float:right;
+}
+
