@@ -1,0 +1,71 @@
+
+
+
+#board {
+	margin: 20px auto;
+	width: 370px;
+}
+
+.row {
+	display:flex;
+	flex-wrap: wrap;
+	margin: auto;
+	text-align: center;
+}
+
+.box {
+	display:inline-block;
+	width: 120px;
+	height: 120px;
+	font-family: "sans-serif";
+	font-size: 72px;
+	line-height: 122px;
+}
+
+.box:hover {
+	cursor: pointer;
+}
+
+#one {
+	background-color: #orange;
+	border-right: 2px solid #333;
+	border-bottom: 2px solid #333;
+}
+#two {
+	border-right: 2px solid #333;
+	border-bottom: 2px solid #333;
+	border-left: 2px solid #333;
+}
+#three {
+	border-left: 2px solid #333;
+	border-bottom: 2px solid #333;
+}
+#four {
+	border-top: 2px solid #333;
+	border-right: 2px solid #333;
+	border-bottom: 2px solid #333;
+}
+#five {
+	border-top: 2px solid #333;
+	border-right: 2px solid #333;
+	border-bottom: 2px solid #333;
+	border-left: 2px solid #333;
+}
+#six {
+	border-top: 2px solid #333;
+	border-bottom: 2px solid #333;
+	border-left: 2px solid #333;
+}
+#seven {
+	border-top: 2px solid #333;
+	border-right: 2px solid #333;
+}
+#eight {
+	border-top: 2px solid #333;
+	border-right: 2px solid #333;
+	border-left: 2px solid #333;
+}
+#nine {
+	border-top: 2px solid #333;
+	border-left: 2px solid #333;
+}

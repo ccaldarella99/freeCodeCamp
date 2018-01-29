@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		
+		Tic-Tac-Toe!
+		<div id="board">
+			<div class="row" id="top">
+				<div class="box" id="one" onclick="selectBox('one')"></div>
+				<div class="box" id="two" onclick="selectBox('two')"></div>
+				<div class="box" id="three" onclick="selectBox('three')"></div>
+			</div>
+			<div class="row" id="middle">
+				<div class="box" id="four" onclick="selectBox('four')"></div>
+				<div class="box" id="five" onclick="selectBox('five')"></div>
+				<div class="box" id="six" onclick="selectBox('six')"></div>
+			</div>
+			<div class="row" id="bottom">
+				<div class="box" id="seven" onclick="selectBox('seven')"></div>
+				<div class="box" id="eight" onclick="selectBox('eight')"></div>
+				<div class="box" id="nine" onclick="selectBox('nine')"></div>
+			</div>
+		</div>
+		
+		<button onclick="reset_game()">Reset-Game</button>
+		<div id="test"></div>
+		
+		<script src="app.js"></script>
+	</body>
+</html>

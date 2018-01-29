@@ -1,0 +1,103 @@
+<!DOCTYPE HTML5>
+<html lang="en">
+	<head>
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+	<body>
+		
+		<div class="container">
+			
+			<div id="calculator">
+					
+					<div class="btn-row">
+						<div id="display">
+							0
+						</div>
+					</div>
+
+					<div class="btn-row top-row">
+						<button class="clr-btn all-btn" id="ce" onclick="clearDisplay(0)">
+							CE
+						</button>
+						<button class="clr-btn all-btn" id="c" onclick="clearDisplay(1)">
+							C
+						</button>
+					</div>
+
+					<div class="btn-row">
+						<button class="num-btn all-btn" id="num7" onclick="setNumber(7)">
+							7
+						</button>
+						<button class="num-btn all-btn" id="num8" onclick="setNumber(8)">
+							8
+						</button>
+						<button class="num-btn all-btn" id="num9" onclick="setNumber(9)">
+							9
+						</button>
+						<button class="num-btn all-btn" id="op-times" onclick="operation('op-times')">
+							&times;
+						</button>
+					</div>
+
+					<div class="btn-row">
+						<button class="num-btn all-btn" id="num4" onclick="setNumber(4)">
+							4
+						</button>
+						<button class="num-btn all-btn" id="num5" onclick="setNumber(5)">
+							5
+						</button>
+						<button class="num-btn all-btn" id="num6" onclick="setNumber(6)">
+							6
+						</button>
+						<button class="num-btn all-btn" id="op-divide" onclick="operation('op-divide')">
+							&divide;
+						</button>
+					</div>
+
+					<div class="btn-row">
+						<button class="num-btn all-btn" id="num1" onclick="setNumber(1)">
+							1
+						</button>
+						<button class="num-btn all-btn" id="num2" onclick="setNumber(2)">
+							2
+						</button>
+						<button class="num-btn all-btn" id="num3" onclick="setNumber(3)">
+							3
+						</button>
+						<button class="num-btn all-btn" id="op-minus" onclick="operation('op-minus')">
+							-
+						</button>
+					</div>
+
+					<div class="btn-row">
+						<button class="num-btn all-btn" id="num0" onclick="setNumber(0)">
+							0
+						</button>
+						<button class="num-btn all-btn" id="decimal" onclick="setNumber(\".\")">
+							&bull;
+						</button>
+						<button class="num-btn all-btn" id="op-plus" onclick="operation('op-plus')">
+							+
+						</button>
+						<button class="num-btn all-btn" id="op-equal" onclick="operation('op-equal')">
+							=
+						</button>
+					</div>
+
+
+
+					
+			</div>
+			
+		</div>
+		
+		<script type="text/javascript" src="app.js">
+		</script>
+		
+	</body>
+</html>
